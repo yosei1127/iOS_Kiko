@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13996CE61FB037AC002B4EC6 /* diary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13996CE51FB03782002B4EC6 /* diary.storyboard */; };
+		13996CE81FB03EF5002B4EC6 /* diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13996CE71FB03EF5002B4EC6 /* diary.swift */; };
 		378BDDF01C05A3E3000DD5BB /* PagingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378BDDEE1C05A3E3000DD5BB /* PagingCollectionViewCell.swift */; };
 		378BDDF11C05A3E3000DD5BB /* PagingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 378BDDEF1C05A3E3000DD5BB /* PagingCollectionViewCell.xib */; };
 		378BDDF31C05A3F5000DD5BB /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378BDDF21C05A3F5000DD5BB /* PagingCollectionViewLayout.swift */; };
@@ -118,6 +120,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13996CE51FB03782002B4EC6 /* diary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = diary.storyboard; sourceTree = "<group>"; };
+		13996CE71FB03EF5002B4EC6 /* diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diary.swift; sourceTree = "<group>"; };
 		355EB8B6F669EC0DB1423759 /* Pods-キーコ紀行Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-キーコ紀行Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-キーコ紀行Tests/Pods-キーコ紀行Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		378BDDEE1C05A3E3000DD5BB /* PagingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewCell.swift; sourceTree = "<group>"; };
 		378BDDEF1C05A3E3000DD5BB /* PagingCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagingCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -353,6 +357,7 @@
 				3B1068751EE3FC4100203416 /* photoController.storyboard */,
 				3B1068731EE3FAC400203416 /* printPreview.storyboard */,
 				3B1068711EE3F84800203416 /* album.storyboard */,
+				13996CE51FB03782002B4EC6 /* diary.storyboard */,
 				3B10686F1EE3F62300203416 /* createLeaflet.storyboard */,
 				3B10687B1EE4088E00203416 /* loadLeaflet.storyboard */,
 				3B1068791EE4074200203416 /* selectCard.storyboard */,
@@ -373,6 +378,7 @@
 				8F71FCB61C07AC5E00891228 /* PrintPreviewController.swift */,
 				37BBBC471C095E870098B625 /* album_defaultphoto.swift */,
 				37BBBC451C095E730098B625 /* album_userphoto.swift */,
+				13996CE71FB03EF5002B4EC6 /* diary.swift */,
 				9CA1E0231C0432370083591E /* setCardList2.swift */,
 				9CACB5551BDE15970024707B /* setCardList.swift */,
 				9CACB5531BDE15760024707B /* cardData.swift */,
@@ -518,6 +524,7 @@
 				DC4430AC1C0FFEA90006D4F5 /* haikei.jpg in Resources */,
 				378E84611C117AF9008B0E39 /* kiko.png in Resources */,
 				9CA1E0261C0AEAC90083591E /* top画面.png in Resources */,
+				13996CE61FB037AC002B4EC6 /* diary.storyboard in Resources */,
 				3B218F331D14080D00B66C6F /* splash5.png in Resources */,
 				9C4D92431C1A4DFC009A5659 /* s_title.png in Resources */,
 				378BDDF91C05A643000DD5BB /* b300.png in Resources */,
@@ -705,6 +712,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				378BDDF31C05A3F5000DD5BB /* PagingCollectionViewLayout.swift in Sources */,
+				13996CE81FB03EF5002B4EC6 /* diary.swift in Sources */,
 				9CACB5521BDE150E0024707B /* cardList.swift in Sources */,
 				37BBBC461C095E730098B625 /* album_userphoto.swift in Sources */,
 				DC08FCBE1C13E6A1002252F2 /* Edit.swift in Sources */,
